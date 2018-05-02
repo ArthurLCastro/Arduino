@@ -2,20 +2,19 @@
 // Arthur L. Castro
 // Abril de 2017
 
-#define ldr A0
+#define LDR A0
+int lum = 0;
+float lum_percent = 0;
 
 void setup() {
-  pinMode(ldr,INPUT);
+  pinMode(LDR,INPUT);
   Serial.begin(9600);
 }
 
 void loop() {
-  int leitura, leituraPercent;
-  
-  leitura = analogRead(ldr);
-  leituraPercent = map(leitura,0,1023,0,100);
+  lum = analogRead(ldr);
+  lum_percent = map(lum,0,1023,0,100);
   Serial.print("Luminosidade: ");
-  Serial.print(leituraPercent);
-  Serial.println("%");
-  delay(100);
+  Serial.println(lum_percent);
+  delay(500);
 }
