@@ -1,4 +1,4 @@
-// LED RGB - Sketch para Teste
+// Modulo RGB - Sketch para Teste
 // Arthur L. Castro
 // Abril de 2017
 
