@@ -14,7 +14,7 @@ void setup() {
 void loop() {
   boolean leitura = digitalRead(reed);
   Serial.print("Leitura: ");
-  if(leitura == LOW){
+  if(leitura == HIGH){
     Serial.println("Objeto detectado");
     digitalWrite(led,HIGH);
   } else {
