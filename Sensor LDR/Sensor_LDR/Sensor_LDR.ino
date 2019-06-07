@@ -3,8 +3,10 @@
 // Julho de 2017
 
 #define LDR A0
+#define intervalo 500
+
 int lum = 0;
-float lum_percent = 0;
+int lum_percent = 0;
 
 void setup() {
   pinMode(LDR,INPUT);
@@ -12,9 +14,12 @@ void setup() {
 }
 
 void loop() {
-  lum = analogRead(ldr);
+  lum = analogRead(LDR);
   lum_percent = map(lum,0,1023,0,100);
+  
   Serial.print("Luminosidade: ");
-  Serial.println(lum_percent);
-  delay(500);
+  Serial.print(lum_percent);
+  Serial.println("%");
+  
+  delay(intervalo);
 }
