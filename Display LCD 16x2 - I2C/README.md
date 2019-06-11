@@ -4,21 +4,26 @@
 <figure>
     <img src="/Display LCD 16x2 - I2C/img/DisplayLCD-I2C.png" width="70%" alt="Hardware">
     <figcaption>figura 01 - Hardware</figcaption>
+	</br> 
 </figure>
+
+</br> 
 
 <figure>
     <img src="/Display LCD 16x2 - I2C/img/Modulo-I2C.png" width="70%" alt="Módulo I2C para Display LCD">
     <figcaption>figura 02 - Módulo I2C</figcaption>
+	</br> 
 </figure>
 
 ## Biblioteca:
 O sketch utiliza a bilbioteca [LCD library](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home). Uma bilbioteca derivada da LiquidCrystal original do Arduino. Foi desenvolvida para ser compatível com a atual biblioteca LiquidCrystal, possuindo desempenho mais rápido de quase 5 vezes e totalmente extensível, se necessário.
 
 ## Endereçamento I2C:
-Para que o código [DisplayLCD-I2C.ino](https://github.com/ArthurLCastro/modulos-arduino/) seja compilado é necessário endereçar o módul I2C corretamente.
+Para que o código [DisplayLCD-I2C.ino](https://github.com/ArthurLCastro/modulos-arduino/) seja compilado é necessário endereçar o módulo I2C corretamente.
 <figure>
     <img src="/Display LCD 16x2 - I2C/img/terminais-de-enderecamento.png">
     <figcaption>figura 03 - Terminais de Endereçamento</figcaption>
+	</br> 
 </figure>
 
 Verifique se o módulo que você está utilizando possui o chip **PCF8574T** ou o chip **PCF8574AT** e se há curto nos terminais de endereçamento (figura 03). Compare com os valores da tabela abaixo para descobrir qual o valor que deverá ser passado no código do Arduino.
