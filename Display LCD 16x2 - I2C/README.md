@@ -2,12 +2,12 @@
 
 ## Hardware:
 <figure>
-    <img src="/img/DisplayLCD-I2C.png" width="70%" alt="Hardware">
+    <img src="/Display LCD 16x2 - I2C/img/DisplayLCD-I2C.png" width="70%" alt="Hardware">
     <figcaption>figura 01 - Hardware</figcaption>
 </figure>
 
 <figure>
-    <img src="/img/Modulo-I2C.png" width="70%" alt="Módulo I2C para Display LCD">
+    <img src="/Display LCD 16x2 - I2C/img/Modulo-I2C.png" width="70%" alt="Módulo I2C para Display LCD">
     <figcaption>figura 02 - Módulo I2C</figcaption>
 </figure>
 
@@ -17,7 +17,7 @@ O sketch utiliza a bilbioteca [LCD library](https://bitbucket.org/fmalpartida/ne
 ## Endereçamento I2C:
 Para que o código [DisplayLCD-I2C.ino](https://github.com/ArthurLCastro/modulos-arduino/) seja compilado é necessário endereçar o módul I2C corretamente.
 <figure>
-    <img src="/img/terminais-de-enderecamento.png">
+    <img src="/Display LCD 16x2 - I2C/img/terminais-de-enderecamento.png">
     <figcaption>figura 03 - Terminais de Endereçamento</figcaption>
 </figure>
 
