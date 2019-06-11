@@ -2,8 +2,13 @@
 
 ## Hardware:
 <figure>
-    <img src="https://github.com/ArthurLCastro/modulos-arduino/" width="70%" alt="Hardware">
-    <figcaption>Figura 01 - Hardware</figcaption>
+    <img src="/img/DisplayLCD-I2C.png" width="70%" alt="Hardware">
+    <figcaption>figura 01 - Hardware</figcaption>
+</figure>
+
+<figure>
+    <img src="/img/Modulo-I2C.png" width="70%" alt="Módulo I2C para Display LCD">
+    <figcaption>figura 02 - Módulo I2C</figcaption>
 </figure>
 
 ## Biblioteca:
@@ -12,11 +17,11 @@ O sketch utiliza a bilbioteca [LCD library](https://bitbucket.org/fmalpartida/ne
 ## Endereçamento I2C:
 Para que o código [DisplayLCD-I2C.ino](https://github.com/ArthurLCastro/modulos-arduino/) seja compilado é necessário endereçar o módul I2C corretamente.
 <figure>
-    <img src="https://github.com/ArthurLCastro/modulos-arduino/" width="70%" alt="Terminais de Endereçamento">
-    <figcaption>Figura 02 - Terminais de Endereçamento</figcaption>
+    <img src="/img/terminais-de-enderecamento.png">
+    <figcaption>figura 03 - Terminais de Endereçamento</figcaption>
 </figure>
 
-Verifique se o módulo que você está utilizando possui o chip **PCF8574T** ou o chip **PCF8574AT** e se há curto nos terminais de endereçamento (figura 02). Compare com os valores da tabela abaixo para descobrir qual o valor que deverá ser passado no código do Arduino.
+Verifique se o módulo que você está utilizando possui o chip **PCF8574T** ou o chip **PCF8574AT** e se há curto nos terminais de endereçamento (figura 03). Compare com os valores da tabela abaixo para descobrir qual o valor que deverá ser passado no código do Arduino.
 
 | A2 | A1 | A0 | PCF8574T | PCF8574AT |
 |----|----|----|----------|-----------|
